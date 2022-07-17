@@ -8,11 +8,45 @@ function MenuItems() {
   if (pageType === "home") {
     return (
       <Row>
-        <Col sm={6} md={4}>
-          <Link to="/Shop">Shop</Link>
+        <Col className="col-6">
+          <Link className="navElement" to="/Shop">
+            Shop
+          </Link>
         </Col>
-        <Col sm={6} md={4}>
-          <Link to="/Profile">Profile</Link>
+        <Col className="col-6 ">
+          <Link className="navElement" to="/Profile">
+            Profile
+          </Link>
+        </Col>
+      </Row>
+    );
+  } else if (pageType === "shop") {
+    return (
+      <Row>
+        <Col className="col-6">
+          <Link className="navElement" to="/">
+            Home
+          </Link>
+        </Col>
+        <Col className="col-6">
+          <Link to="/Profile" className="navElement">
+            Profile
+          </Link>
+        </Col>
+      </Row>
+    );
+  } else {
+    return (
+      <Row>
+        <Col className="col-6">
+          <Link to="/Shop" className="navElement">
+            Shop
+          </Link>
+        </Col>
+        <Col className="col-6">
+          <Link className="navElement" to="/">
+            Home
+          </Link>
         </Col>
       </Row>
     );

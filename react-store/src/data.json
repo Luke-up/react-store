@@ -1,0 +1,41 @@
+[
+    {
+    "PuddleClap":{
+        "name":"Puddle Clap",
+        "description": "A tough durable lace made for a hard life. Patterned liquorice band laces are extra wide for increased strength.",
+        "price": "R 320",
+        "image": "./src/images/MS.jpg"
+    },
+    "SteepedTeaTapper":{
+        "name":"Steeped Tea Tapper",
+        "description": "A light everyday casual lace that will match well with most colours",
+        "price": "R200",
+        "image":"./src/images/STT.jpg"
+    }
+    ,
+    "LollyLagging":{
+        "name":"Lolly Lagging",
+        "description": "Fun slim laces with a deep hue that can be smart, but playful",
+        "price": "R220",
+        "image":"./src/images/LL.jpg"
+    },
+    "CloverSprint":{
+        "name":"Clover Sprint",
+        "description": "A stretchy lightweight lace for active feet and a secure fit.",
+        "price": "R370",
+        "image":"./src/images/CS.jpg"
+    },
+    "BoiledLoaf":{
+        "name":"Boiled Loaf",
+        "description": "A modern stylish lace, built for looks instead of speed.",
+        "price": "R400",
+        "image":"./src/images/BL.jpg"
+    },
+    "NumberOne":{
+        "name":"Number One",
+        "description": "Our most versatile lace, a classic take on the original Onitsuka Futsu laces.",
+        "price": "R160",
+        "image":"./src/images/NO.jpg"
+    }
+    }
+]

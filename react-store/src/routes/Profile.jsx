@@ -1,6 +1,8 @@
+import Navigation from "../components/Navigation";
+
 function Profile() {
   sessionStorage.setItem("pageType", JSON.stringify("profile"));
-  return <h1>Profile page</h1>;
+  return <Navigation />;
 }
 
 export default Profile;
