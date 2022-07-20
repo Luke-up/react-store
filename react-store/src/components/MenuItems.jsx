@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
+//The function renders two buttons on the right of the navigation bar depending on the page type, so that buttons are not place on their own pages
 function MenuItems() {
   let pageType = JSON.parse(sessionStorage.getItem("pageType"));
-  console.log(pageType);
   if (pageType === "home") {
     return (
       <Row>

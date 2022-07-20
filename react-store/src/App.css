@@ -1,13 +1,17 @@
+/*The custom CSS applies only to a few element on the Navigation component*/
+/*The overall shape, text-color and colour is set*/
 .navigation {
   display:block;
   background: rgb(65, 65, 65);
   color:white;
 }
+/*The link elements are set to the same colour and stripped of the underlining*/
 .navElement,
 .brand {
   text-decoration: none;
   color:white;
 }
+/*The buttons are shaped slightly rounded and white on the top and bottom*/
 .navElement{
   padding:.5em 2.5em;
   background: rgb(73, 73, 73);
@@ -15,6 +19,7 @@
   border-top:solid white 4px;
   border-radius:10px;
 }
+/*button indicate a mouse hover with slight colour change*/
 .navElement:hover{
   background: rgb(90, 90, 90);
   color:whitesmoke;

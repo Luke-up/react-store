@@ -1,0 +1,7 @@
+/*Styling to make the submit button large and circular*/
+.addButton {
+  border-radius:90%;
+  padding:30px 10px;
+  border: white solid 3px;
+  background:rgb(129, 163, 255);
+}

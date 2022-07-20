@@ -3,39 +3,50 @@
     "PuddleClap":{
         "name":"Puddle Clap",
         "description": "A tough durable lace made for a hard life. Patterned liquorice band laces are extra wide for increased strength.",
-        "price": "R 320",
-        "image": "./src/images/MS.jpg"
+        "price": "320",
+        "image": "./images/PC.jpg",
+        "itemID": "PuddleClap",
+        "quantity": 0
     },
     "SteepedTeaTapper":{
         "name":"Steeped Tea Tapper",
         "description": "A light everyday casual lace that will match well with most colours",
-        "price": "R200",
-        "image":"./src/images/STT.jpg"
-    }
-    ,
+        "price": "200",
+        "image":"./images/STT.jpg",
+        "itemID": "SteepedTeaTapper",
+        "quantity": 0
+    },
     "LollyLagging":{
         "name":"Lolly Lagging",
         "description": "Fun slim laces with a deep hue that can be smart, but playful",
-        "price": "R220",
-        "image":"./src/images/LL.jpg"
+        "price": "220",
+        "image":"./images/LL.jpg",
+        "itemID": "LollyLagging",
+        "quantity": 0
     },
     "CloverSprint":{
         "name":"Clover Sprint",
         "description": "A stretchy lightweight lace for active feet and a secure fit.",
-        "price": "R370",
-        "image":"./src/images/CS.jpg"
+        "price": "370",
+        "image":"./images/CS.jpg",
+        "itemID": "CloverSprint",
+        "quantity": 0
     },
     "BoiledLoaf":{
         "name":"Boiled Loaf",
         "description": "A modern stylish lace, built for looks instead of speed.",
-        "price": "R400",
-        "image":"./src/images/BL.jpg"
+        "price": "400",
+        "image":"./images/BL.jpg",
+        "itemID": "BoiledLoaf",
+        "quantity": 0
     },
     "NumberOne":{
         "name":"Number One",
         "description": "Our most versatile lace, a classic take on the original Onitsuka Futsu laces.",
-        "price": "R160",
-        "image":"./src/images/NO.jpg"
+        "price": "160",
+        "image":"./images/NO.jpg",
+        "itemID": "NumberOne",
+        "quantity": 0
     }
     }
 ]
